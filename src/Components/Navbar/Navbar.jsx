@@ -8,7 +8,7 @@ export default function NavbarTopBar() {
     <>
       {/*<!-- Component: Navbar with Topbar --> */}
       {/*<!-- Top bar --> */}
-      <div className="bg-black border-b border-slate-200">
+      <div className="bg-gray-900 border-b border-slate-200">
         <div className="mx-auto grid w-full max-w-full grid-cols-4 gap-6 px-6 py-2 text-sm text-white md:grid-cols-8 lg:max-w-5xl lg:grid-cols-12 xl:max-w-7xl 2xl:max-w-[96rem]">
           <div className="items-center col-span-2 md:col-span-4 lg:col-span-6">
             <a
@@ -116,7 +116,7 @@ export default function NavbarTopBar() {
       </div>
 
       {/*<!-- Header --> */}
-      <header className="relative z-20 w-full bg-black border-b shadow-lg border-slate-200 shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+      <header className="relative z-20 w-full bg-gray-900 border-b shadow-lg border-slate-200 shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
