@@ -1,4 +1,5 @@
 import React from 'react';
+import NavbarTopBar from '../Components/Navbar/Navbar';
 
 const Login = () => {
   const handleSubmit = (event) => {
@@ -7,7 +8,9 @@ const Login = () => {
   };
 
   return (
+    
     <div className="py-16">
+      <NavbarTopBar className="" />
       <div className="flex mx-auto overflow-hidden bg-black rounded-lg shadow-lg maxbla-w-sm lg:max-w-4xl">
         <div
           className="hidden lg:block lg:w-1/2 bg-cover bg-[url('/assets/images/img1.png')]"

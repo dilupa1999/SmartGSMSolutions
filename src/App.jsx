@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Example from './Pages/Products';
 import ProductInfo from './Components/ProductShowcase/ProductInfo';
 import Login from './Pages/Login';
-import Signup from './Pages/SignUp';
+
 import SignUp from './Pages/SignUp';
 const PageComponent = ({Page}) => {
   return (

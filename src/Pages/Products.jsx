@@ -20,6 +20,7 @@ import {
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
 import Eproduct from "../Components/ProductShowcase/Eproduct";
+import NavbarTopBar from "../Components/Navbar/Navbar";
 
 const minPrice = 0;
 const maxPrice = 10000;
@@ -87,6 +88,7 @@ export default function Example() {
 
   return (
     <div className="bg-black">
+   
       <div>
         {/* Mobile filter dialog */}
         <Dialog
