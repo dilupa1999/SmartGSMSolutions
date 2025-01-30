@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20">
           <div className="mb-4">
             <div className="max-w-3xl mb-6 text-center sm:text-center md:mx-auto md:mb-12">
-              <p className="text-base font-semibold tracking-wide text-pink-600 uppercase">
+              <p className="text-base font-semibold tracking-wide text-white uppercase">
                 Contact
               </p>
               <h2 className="mb-4 text-3xl font-bold tracking-tight text-white font-heading sm:text-5xl">

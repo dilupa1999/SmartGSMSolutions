@@ -104,14 +104,14 @@ export default function Example() {
           <div className="fixed inset-0 z-40 flex">
             <DialogPanel
               transition
-              className="relative ml-auto flex size-full max-w-xs transform flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl transition duration-300 ease-in-out data-[closed]:translate-x-full"
+              className="relative ml-auto flex size-full max-w-xs transform flex-col overflow-y-auto bg-black py-4 pb-12 shadow-xl transition duration-300 ease-in-out data-[closed]:translate-x-full"
             >
               <div className="flex items-center justify-between px-4">
                 <h2 className="text-lg font-medium text-white">Filters</h2>
                 <button
                   type="button"
                   onClick={() => setMobileFiltersOpen(false)}
-                  className="flex items-center justify-center p-2 -mr-2 text-white bg-white rounded-md size-10"
+                  className="flex items-center justify-center p-2 -mr-2 text-white bg-black rounded-md size-10"
                 >
                   <span className="sr-only">Close menu</span>
                   <XMarkIcon aria-hidden="true" className="size-6" />
@@ -138,7 +138,7 @@ export default function Example() {
                     className="px-4 py-6 border-t border-gray-200"
                   >
                     <h3 className="flow-root -mx-2 -my-3">
-                      <DisclosureButton className="flex items-center justify-between w-full px-2 py-3 text-white bg-white group hover:text-white">
+                      <DisclosureButton className="flex items-center justify-between w-full px-2 py-3 text-white bg-black group hover:text-white">
                         <span className="font-medium text-white">
                           {section.name}
                         </span>
@@ -166,7 +166,7 @@ export default function Example() {
                                   id={`filter-mobile-${section.id}-${optionIdx}`}
                                   name={`${section.id}[]`}
                                   type="checkbox"
-                                  className="col-start-1 row-start-1 bg-white border border-gray-300 rounded appearance-none checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                  className="col-start-1 row-start-1 bg-black border border-gray-300 rounded appearance-none checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                 />
                                 <svg
                                   fill="none"
@@ -240,7 +240,7 @@ export default function Example() {
                 name="id-s03"
                 placeholder="Search here"
                 aria-label="Search content"
-                className="relative w-full h-10 px-4 pr-12 text-sm transition-all border rounded outline-none focus-visible:outline-none peer border-slate-200 text-slate-500 autofill:bg-white invalid:border-pink-500 invalid:text-pink-500 focus:border-pink-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
+                className="relative w-full h-10 px-4 pr-12 text-sm transition-all border rounded outline-none focus-visible:outline-none peer border-slate-200 text-slate-500 autofill:bg-black invalid:border-pink-500 invalid:text-white-500 focus:border-pink-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -340,8 +340,8 @@ export default function Example() {
                     className="py-6 border-b border-gray-200"
                   >
                     <h3 className="flow-root -my-3">
-                      <DisclosureButton className="flex items-center justify-between w-full py-3 text-sm text-white bg-white group hover:text-white">
-                        <span className="font-medium text-pink-600">
+                      <DisclosureButton className="flex items-center justify-between w-full py-3 text-sm text-white bg-black group hover:text-white">
+                        <span className="font-medium text-white-600">
                           {section.name}
                         </span>
                         <span className="flex items-center ml-6">
@@ -368,7 +368,7 @@ export default function Example() {
                                   id={`filter-${section.id}-${optionIdx}`}
                                   name={`${section.id}[]`}
                                   type="checkbox"
-                                  className="col-start-1 row-start-1 bg-white border border-gray-300 rounded appearance-none checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+                                  className="col-start-1 row-start-1 bg-black border border-gray-300 rounded appearance-none checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
                                 />
                                 <svg
                                   fill="none"
@@ -436,7 +436,7 @@ export default function Example() {
                       <a
                         href="javascript:void(0)"
                         aria-label="Goto Page 1"
-                        class="inline-flex items-center justify-center h-10 gap-4 px-4 text-sm font-medium transition duration-300 rounded focus-visible:outline-none stroke-slate-700 text-slate-700 hover:bg-pink-50 hover:text-pink-500 hover:stroke-pink-500 focus:bg-pink-50 focus:text-pink-600 focus:stroke-pink-600"
+                        class="inline-flex items-center justify-center h-10 gap-4 px-4 text-sm font-medium transition duration-300 rounded focus-visible:outline-none stroke-slate-700 text-slate-700 hover:bg-pink-50 hover:text-white-500 hover:stroke-pink-500 focus:bg-pink-50 focus:text-white-600 focus:stroke-pink-600"
                       >
                         <span class="order-2">Prev</span>
                         <svg
@@ -464,7 +464,7 @@ export default function Example() {
                       <a
                         href="javascript:void(0)"
                         aria-label="Goto Page 3"
-                        class="inline-flex items-center justify-center h-10 gap-4 px-4 text-sm font-medium transition duration-300 rounded focus-visible:outline-none stroke-slate-700 text-slate-700 hover:bg-pink-50 hover:text-pink-500 hover:stroke-pink-500 focus:bg-pink-50 focus:text-pink-600 focus:stroke-pink-600"
+                        class="inline-flex items-center justify-center h-10 gap-4 px-4 text-sm font-medium transition duration-300 rounded focus-visible:outline-none stroke-slate-700 text-slate-700 hover:bg-pink-50 hover:text-white-500 hover:stroke-pink-500 focus:bg-pink-50 focus:text-white-600 focus:stroke-pink-600"
                       >
                         <span>Next </span>
                         <svg
