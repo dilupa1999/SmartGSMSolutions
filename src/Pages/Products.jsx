@@ -20,7 +20,7 @@ import {
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
 import Eproduct from "../Components/ProductShowcase/Eproduct";
-import NavbarTopBar from "../Components/Navbar/Navbar";
+
 
 const minPrice = 0;
 const maxPrice = 10000;
@@ -107,11 +107,11 @@ export default function Example() {
               className="relative ml-auto flex size-full max-w-xs transform flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl transition duration-300 ease-in-out data-[closed]:translate-x-full"
             >
               <div className="flex items-center justify-between px-4">
-                <h2 className="text-lg font-medium text-gray-900">Filters</h2>
+                <h2 className="text-lg font-medium text-white">Filters</h2>
                 <button
                   type="button"
                   onClick={() => setMobileFiltersOpen(false)}
-                  className="flex items-center justify-center p-2 -mr-2 text-gray-400 bg-white rounded-md size-10"
+                  className="flex items-center justify-center p-2 -mr-2 text-white bg-white rounded-md size-10"
                 >
                   <span className="sr-only">Close menu</span>
                   <XMarkIcon aria-hidden="true" className="size-6" />
@@ -121,7 +121,7 @@ export default function Example() {
               {/* Filters */}
               <form className="mt-4 border-t border-gray-200">
                 <h3 className="sr-only">Categories</h3>
-                <ul role="list" className="px-2 py-3 font-medium text-gray-900">
+                <ul role="list" className="px-2 py-3 font-medium text-white">
                   {subCategories.map((category) => (
                     <li key={category.name}>
                       <a href={category.href} className="block px-2 py-3">
@@ -138,8 +138,8 @@ export default function Example() {
                     className="px-4 py-6 border-t border-gray-200"
                   >
                     <h3 className="flow-root -mx-2 -my-3">
-                      <DisclosureButton className="flex items-center justify-between w-full px-2 py-3 text-gray-400 bg-white group hover:text-gray-500">
-                        <span className="font-medium text-gray-900">
+                      <DisclosureButton className="flex items-center justify-between w-full px-2 py-3 text-white bg-white group hover:text-white">
+                        <span className="font-medium text-white">
                           {section.name}
                         </span>
                         <span className="flex items-center ml-6">
@@ -192,7 +192,7 @@ export default function Example() {
                             </div>
                             <label
                               htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
-                              className="flex-1 min-w-0 text-gray-500"
+                              className="flex-1 min-w-0 text-white"
                             >
                               {option.label}
                             </label>
@@ -203,10 +203,10 @@ export default function Example() {
                   </Disclosure>
                 ))}
                 <div className="px-4 py-6 border-b border-gray-200">
-                  <h3 className="font-medium text-gray-900">Price Range</h3>
+                  <h3 className="font-medium text-white">Price Range</h3>
                   <div className="mt-4">
                     {/* Price Range Display */}
-                    <div className="flex justify-between text-sm text-gray-600">
+                    <div className="flex justify-between text-sm text-white">
                       <span>Rs.{minPrice}</span>
                       <span>Rs.{priceRange}</span>
                       <span>Rs.{maxPrice}</span>
@@ -263,18 +263,18 @@ export default function Example() {
             <div className="flex items-star">
               <Menu as="div" className="relative inline-block text-left">
                 <div>
-                  <MenuButton className="inline-flex justify-center text-sm font-medium text-gray-700 group hover:text-gray-900">
+                  <MenuButton className="inline-flex justify-center text-sm font-medium text-white group hover:text-white">
                     Sort
                     <ChevronDownIcon
                       aria-hidden="true"
-                      className="ml-1 mr-24 text-gray-400 size-5 shrink-0 group-hover:text-gray-500"
+                      className="ml-1 mr-24 text-white size-5 shrink-0 group-hover:text-white"
                     />
                   </MenuButton>
                 </div>
 
                 <MenuItems
                   transition
-                  className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black/5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
+                  className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-black shadow-2xl ring-1 ring-black/5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
                 >
                   <div className="py-1">
                     {sortOptions.map((option) => (
@@ -283,9 +283,9 @@ export default function Example() {
                           href={option.href}
                           className={classNames(
                             option.current
-                              ? "font-medium text-gray-900"
-                              : "text-gray-500",
-                            "block px-4 py-2 text-sm data-[focus]:bg-gray-100 data-[focus]:outline-none"
+                              ? "font-medium text-white"
+                              : "text-white",
+                            "block px-4 py-2 text-sm data-[focus]:bg-black data-[focus]:outline-none"
                           )}
                         >
                           {option.name}
@@ -298,7 +298,7 @@ export default function Example() {
 
               <button
                 type="button"
-                className="p-2 ml-5 -m-2 text-gray-400 hover:text-gray-500 sm:ml-7"
+                className="p-2 ml-5 -m-2 text-white hover:text-white sm:ml-7"
               >
                 <span className="sr-only">View grid</span>
                 <Squares2X2Icon aria-hidden="true" className="size-5" />
@@ -306,7 +306,7 @@ export default function Example() {
               <button
                 type="button"
                 onClick={() => setMobileFiltersOpen(true)}
-                className="p-2 ml-4 -m-2 text-gray-400 hover:text-gray-500 sm:ml-6 lg:hidden"
+                className="p-2 ml-4 -m-2 text-white hover:text-white sm:ml-6 lg:hidden"
               >
                 <span className="sr-only">Filters</span>
                 <FunnelIcon aria-hidden="true" className="size-5" />
@@ -324,7 +324,7 @@ export default function Example() {
                 <h3 className="sr-only">Categories</h3>
                 <ul
                   role="list"
-                  className="pb-6 space-y-4 text-sm font-medium text-gray-900 border-b border-gray-200"
+                  className="pb-6 space-y-4 text-sm font-medium text-white border-b border-gray-200"
                 >
                   {subCategories.map((category) => (
                     <li key={category.name}>
@@ -340,7 +340,7 @@ export default function Example() {
                     className="py-6 border-b border-gray-200"
                   >
                     <h3 className="flow-root -my-3">
-                      <DisclosureButton className="flex items-center justify-between w-full py-3 text-sm text-gray-400 bg-white group hover:text-gray-500">
+                      <DisclosureButton className="flex items-center justify-between w-full py-3 text-sm text-white bg-white group hover:text-white">
                         <span className="font-medium text-pink-600">
                           {section.name}
                         </span>
@@ -394,7 +394,7 @@ export default function Example() {
                             </div>
                             <label
                               htmlFor={`filter-${section.id}-${optionIdx}`}
-                              className="text-sm text-gray-600"
+                              className="text-sm text-white"
                             >
                               {option.label}
                             </label>
@@ -405,10 +405,10 @@ export default function Example() {
                   </Disclosure>
                 ))}
                 <div className="py-6 border-b border-gray-200">
-                  <h3 className="font-medium text-gray-900">Price Range</h3>
+                  <h3 className="font-medium text-white">Price Range</h3>
                   <div className="mt-4">
                     {/* Price Range Display */}
-                    <div className="flex justify-between text-sm text-gray-600">
+                    <div className="flex justify-between text-sm text-white">
                       <span>Rs.{minPrice}</span>
                       <span>Rs.{priceRange}</span>
                       <span>Rs.{maxPrice}</span>
