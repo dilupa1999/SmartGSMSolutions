@@ -4,10 +4,10 @@ import img from "/assets/images/s.webp";
 const About = () => {
   return (
     <>
-    <section className="bg-gray-100 py-10 px-5 md:px-20">
-        <div className="container mx-auto flex flex-col md:flex-row items-center">
+    <section className="px-5 py-10 bg-gray-100 md:px-20">
+        <div className="container flex flex-col items-center mx-auto md:flex-row">
           {/* Image Section */}
-          <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
+          <div className="flex justify-center mb-6 md:w-1/2 md:mb-0">
             <img
               src={img}
               alt="Sri Lankan Authentic Food"
@@ -16,22 +16,22 @@ const About = () => {
           </div>
 
           {/* Content Section */}
-          <div className="md:w-1/2 md:pl-10 text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl font-bold text-pink-500 mb-4">
+          <div className="text-center md:w-1/2 md:pl-10 md:text-left">
+            <h2 className="mb-4 text-3xl font-bold text-pink-500 md:text-4xl">
             About Us
             </h2>
-            <p className="text-gray-700 text-base md:text-lg mb-4">
+            <p className="mb-4 text-base text-gray-700 md:text-lg">
               Warm Greetings, <br />
               AVI Store offered safety and basic use training on all of its tools and equipment in addition to advanced and special interest classes and workshops. For most equipment, a safety and use class had to be completed before it could be used. It was affiliated with the maker culture and participated in annual Maker Faire events.
             </p>
-            <p className="text-gray-800 text-base md:text-lg font-medium mb-4">
+            <p className="mb-4 text-base font-medium text-gray-800 md:text-lg">
               Contact me: <br />
               <a href="tel:+94773544300" className="hover:underline">+94776059293</a> <br />
               {/* <a href="tel:+94771181803" className="hover:underline">+94771181803</a> */}
             </p>
-            <p className="text-gray-700 text-base md:text-lg mb-4">
+            <p className="mb-4 text-base text-gray-700 md:text-lg">
               Yours Sincerely, <br />
-              <span className="font-semibold text-gray-800">AVI Store</span> </p>
+              <span className="font-semibold text-gray-800">Smart GSM Solution</span> </p>
              
       
           </div>

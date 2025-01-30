@@ -10,10 +10,10 @@ const Contact = () => {
               <p className="text-base font-semibold tracking-wide text-pink-600 uppercase">
                 Contact
               </p>
-              <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900 font-heading sm:text-5xl">
+              <h2 className="mb-4 text-3xl font-bold tracking-tight text-white font-heading sm:text-5xl">
                 Get in Touch
               </h2>
-              <p className="max-w-3xl mx-auto mt-4 text-xl text-gray-600">
+              <p className="max-w-3xl mx-auto mt-4 text-xl text-white">
                 In hac habitasse platea dictumst
               </p>
             </div>
@@ -21,7 +21,7 @@ const Contact = () => {
           <div className="flex items-stretch justify-center">
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
-                <p className="mt-3 mb-12 text-lg text-gray-600">
+                <p className="mt-3 mb-12 text-lg text-white">
                   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec
                   ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.
                 </p>
@@ -45,11 +45,11 @@ const Contact = () => {
                       </svg>
                     </div>
                     <div className="mb-4 ml-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-white">
                         Our Address
                       </h3>
-                      <p className="text-gray-600">310, Katugastota Road,   </p>
-                      <p className="text-gray-600">Kandy , Srilanka</p>
+                      <p className="text-white">Main Street,   </p>
+                      <p className="text-white">Gampola</p>
                     </div>
                   </li>
                   <li className="flex">
@@ -72,9 +72,9 @@ const Contact = () => {
                       </svg>
                     </div>
                     <div className="mb-4 ml-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">Contact</h3>
-                      <p className="text-gray-600">Mobile: +94776059293</p>
-                      <p className="text-gray-600">Mail:  avistore@gmail.com</p>
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-white">Contact</h3>
+                      <p className="text-white">Mobile: +9477 777 4277</p>
+                      <p className="text-white">Mail:  smartgsmsolutions@gmail.com</p>
                     </div>
                   </li>
                   <li className="flex">
@@ -96,15 +96,15 @@ const Contact = () => {
                       </svg>
                     </div>
                     <div className="mb-4 ml-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">Working hours</h3>
-                      <p className="text-gray-600">Monday - Friday: 08:00 - 17:00</p>
-                      <p className="text-gray-600">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-white">Working hours</h3>
+                      <p className="text-white">Monday - Friday: 08:00 - 17:00</p>
+                      <p className="text-white">Saturday &amp; Sunday: 08:00 - 12:00</p>
                     </div>
                   </li>
                 </ul>
               </div>
               <div className="max-w-6xl p-5 card h-fit md:p-12" id="form">
-                <h2 className="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
+                <h2 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h2>
                 <form id="contactForm">
                   <div className="mb-6">
                     <div className="mx-0 mb-1 sm:mb-4">
