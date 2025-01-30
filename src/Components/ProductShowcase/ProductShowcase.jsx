@@ -8,7 +8,7 @@ export default function ProductShowcase() {
   return (
     <div className="py-10 bg-black">
       <div className="relative px-4 py-8 mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-bold text-center text-pink-600">
+        <h2 className="mb-6 text-3xl font-bold text-center text-white">
           Latest Mobiles
         </h2>
         {/* Grid layout */}

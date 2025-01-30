@@ -3,9 +3,9 @@ import React from "react";
 const Newsletter = () => {
   return (
     <section>
-      <div className="max-w-7xl mx-auto px-4 py-8 md:py-12 flex flex-col lg:flex-row items-center justify-between rounded-2xl shadow-md bg-pink-400 mb-8 mt-8">
+      <div className="flex flex-col items-center justify-between px-4 py-8 mx-auto mt-8 mb-8 shadow-md max-w-7xl md:py-12 lg:flex-row rounded-2xl">
         {/* Heading */}
-        <h2 className="mb-6 text-center text-2xl font-bold text-white md:mb-0 lg:mb-0 lg:text-left md:text-3xl lg:text-4xl xl:text-5xl">
+        <h2 className="mb-6 text-2xl font-bold text-center text-white md:mb-0 lg:mb-0 lg:text-left md:text-3xl lg:text-4xl xl:text-5xl">
           Get 25% discount on your next purchase
         </h2>
 
@@ -13,12 +13,12 @@ const Newsletter = () => {
         <form
           name="email-form"
           method="get"
-          className="relative mx-auto flex w-full max-w-lg flex-col items-center gap-4 sm:flex-row lg:justify-end"
+          className="relative flex flex-col items-center w-full max-w-lg gap-4 mx-auto sm:flex-row lg:justify-end"
         >
           {/* Email Input */}
           <input
             type="email"
-            className="h-10 w-full bg-white px-4 py-2 text-sm text-gray-700 border border-gray-300 rounded-lg shadow-sm focus:border-pink-500 focus:ring-2 focus:ring-pink-500 focus:outline-none sm:flex-1"
+            className="w-full h-10 px-4 py-2 text-sm text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm focus:border-pink-500 focus:ring-2 focus:ring-pink-500 focus:outline-none sm:flex-1"
             placeholder="Enter your email"
             required
           />

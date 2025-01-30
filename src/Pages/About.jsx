@@ -27,7 +27,7 @@ const About = () => {
             <p className="mb-4 text-base font-medium text-gray-800 md:text-lg">
               Contact me: <br />
               <a href="tel:+94773544300" className="hover:underline">+94776059293</a> <br />
-              {/* <a href="tel:+94771181803" className="hover:underline">+94771181803</a> */}
+           
             </p>
             <p className="mb-4 text-base text-gray-700 md:text-lg">
               Yours Sincerely, <br />

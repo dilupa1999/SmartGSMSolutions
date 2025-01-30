@@ -6,13 +6,13 @@ import img3 from "/assets/images/blogs/blog-3.jpg";
 
 const RecentNews = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+    <div className="max-w-screen-xl p-5 mx-auto sm:p-10 md:p-16">
       {/* Grid Container */}
-      <h2 className="text-3xl font-bold text-center mb-12 text-pink-600">Recent News</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <h2 className="mb-12 text-3xl font-bold text-center text-white">Recent News</h2>
+      <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
         
         {/* Card 1 */}
-        <div className="rounded overflow-hidden flex flex-col">
+        <div className="flex flex-col overflow-hidden rounded">
           <a href="#">
             <img
               className="w-full"
@@ -20,22 +20,22 @@ const RecentNews = () => {
               alt="Sunset in the mountains"
             />
           </a>
-          <div className="relative -mt-16 px-10 pt-5 pb-16 bg-pink-100 m-10">
+          <div className="relative px-10 pt-5 pb-16 m-10 -mt-16 bg-pink-100">
             <a
               href="#"
-              className="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2"
+              className="inline-block mb-2 text-lg font-semibold transition duration-500 ease-in-out hover:text-indigo-600"
             >
               How to choose perfect smartwatch
 
               </a>
-            <p className="text-gray-500 text-sm">
+            <p className="text-sm text-gray-500">
             minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?
 </p>
-            <p className="mt-5 text-gray-600 text-xs">
+            <p className="mt-5 text-xs text-gray-600">
               By
               <a
                 href="#"
-                className="text-xs text-indigo-600 transition duration-500 ease-in-out ml-1"
+                className="ml-1 text-xs text-indigo-600 transition duration-500 ease-in-out"
               >
                 Mehdi Ahmadi
               </a>{' '}
@@ -58,7 +58,7 @@ const RecentNews = () => {
         </div>
 
         {/* Duplicate Cards */}
-        <div className="rounded overflow-hidden flex flex-col">
+        <div className="flex flex-col overflow-hidden rounded">
           <a href="#">
             <img
               className="w-full"
@@ -66,22 +66,22 @@ const RecentNews = () => {
               alt="Sunset in the mountains"
             />
           </a>
-          <div className="relative -mt-16 px-10 pt-5 pb-16 bg-pink-100 m-10">
+          <div className="relative px-10 pt-5 pb-16 m-10 -mt-16 bg-pink-100">
             <a
               href="#"
-              className="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2"
+              className="inline-block mb-2 text-lg font-semibold transition duration-500 ease-in-out hover:text-indigo-600"
             >
             How to choose perfect gadget
             </a>
-            <p className="text-gray-500 text-sm">
+            <p className="text-sm text-gray-500">
             minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?
 
             </p>
-            <p className="mt-5 text-gray-600 text-xs">
+            <p className="mt-5 text-xs text-gray-600">
               By
               <a
                 href="#"
-                className="text-xs text-indigo-600 transition duration-500 ease-in-out ml-1"
+                className="ml-1 text-xs text-indigo-600 transition duration-500 ease-in-out"
               >
                 Mehdi Ahmadi
               </a>{' '}
@@ -104,7 +104,7 @@ const RecentNews = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="rounded overflow-hidden flex flex-col">
+        <div className="flex flex-col overflow-hidden rounded">
           <a href="#">
             <img
               className="w-full"
@@ -112,22 +112,22 @@ const RecentNews = () => {
               alt="Sunset in the mountains"
             />
           </a>
-          <div className="relative -mt-16 px-10 pt-5 pb-16 bg-pink-100 m-10">
+          <div className="relative px-10 pt-5 pb-16 m-10 -mt-16 bg-pink-100">
             <a
               href="#"
-              className="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2"
+              className="inline-block mb-2 text-lg font-semibold transition duration-500 ease-in-out hover:text-indigo-600"
             >
             How to choose perfect VR headset
 
             </a>
-            <p className="text-gray-500 text-sm">
+            <p className="text-sm text-gray-500">
             minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?
 </p>
-            <p className="mt-5 text-gray-600 text-xs">
+            <p className="mt-5 text-xs text-gray-600">
               By
               <a
                 href="#"
-                className="text-xs text-indigo-600 transition duration-500 ease-in-out ml-1"
+                className="ml-1 text-xs text-indigo-600 transition duration-500 ease-in-out"
               >
                 Mehdi Ahmadi
               </a>{' '}

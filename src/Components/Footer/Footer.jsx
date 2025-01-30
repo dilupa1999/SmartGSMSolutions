@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='text-white'>
-      <footer className="p-10 font-medium text-white bg-gray-900 footer">
+      <footer className="p-10 font-medium text-white border-t border-b footer">
         <nav>
           <h6 className="text-white footer-title">Location</h6>
           <p className="text-white">No 310,</p>
@@ -29,7 +29,7 @@ const Footer = () => {
       </footer>
 
       <div className="items-center">
-        <footer className="p-4 text-white bg-gray-900 footer footer-center">
+        <footer className="p-4 text-white footer footer-center">
           <aside>
             <p>
               All Rights Reserved | Smart GSM Solutions (Pvt) Ltd | Designed & Developed by Silicon Radon Networks (Pvt) Ltd

@@ -31,7 +31,7 @@ export default function Collection() {
     <div className="bg-black">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl py-16 mx-auto sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-4xl font-bold text-pink-500">Gaming Accessories</h2>
+          <h2 className="text-4xl font-bold text-white">Gaming Accessories</h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (

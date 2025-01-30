@@ -19,11 +19,11 @@ const banners = [
   },
   {
     id: 3,
-    title: "Laptop",
+    title: "Mobile",
     subtitle: "Enjoy With",
     color: "bg-red-500",
     textColor: "text-white",
-    image: "/assets/images/category/macbook.png", // Replace with the correct path
+    image: "/assets/images/category/apple.png", // Replace with the correct path img2.png
   },
   {
     id: 4,
