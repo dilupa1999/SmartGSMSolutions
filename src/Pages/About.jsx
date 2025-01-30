@@ -1,10 +1,11 @@
 import React from 'react'
 import img from "/assets/images/s.webp";
 
+
 const About = () => {
   return (
     <>
-    <section className="px-5 py-10 bg-gray-100 md:px-20">
+    <section className="px-5 py-10 md:px-20">
         <div className="container flex flex-col items-center mx-auto md:flex-row">
           {/* Image Section */}
           <div className="flex justify-center mb-6 md:w-1/2 md:mb-0">
@@ -22,11 +23,11 @@ const About = () => {
             </h2>
             <p className="mb-4 text-base text-gray-700 md:text-lg">
               Warm Greetings, <br />
-              AVI Store offered safety and basic use training on all of its tools and equipment in addition to advanced and special interest classes and workshops. For most equipment, a safety and use class had to be completed before it could be used. It was affiliated with the maker culture and participated in annual Maker Faire events.
+             offered safety and basic use training on all of its tools and equipment in addition to advanced and special interest classes and workshops. For most equipment, a safety and use class had to be completed before it could be used. It was affiliated with the maker culture and participated in annual Maker Faire events.
             </p>
             <p className="mb-4 text-base font-medium text-gray-800 md:text-lg">
               Contact me: <br />
-              <a href="tel:+94773544300" className="hover:underline">+94776059293</a> <br />
+              <a href="tel:+94773544300" className="hover:underline">+94 77 777 4277</a> <br />
            
             </p>
             <p className="mb-4 text-base text-gray-700 md:text-lg">
@@ -36,7 +37,9 @@ const About = () => {
       
           </div>
         </div>
+      
       </section>
+   
       </>
   )
 }

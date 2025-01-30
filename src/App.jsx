@@ -13,7 +13,7 @@ import SignUp from './Pages/SignUp';
 const PageComponent = ({Page}) => {
   return (
     <>
-      <NavbarTopBar/>
+      <NavbarTopBar />
       <Page />
       <Footer />
     </>
